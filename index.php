@@ -136,10 +136,6 @@
 					</table>
 				</div>
 			</div>
-			<!-- <div>
-				<iframe src="http://localhost/phpmyadmin/index.php"></iframe>
-			</div> -->
-			<!-- <div class="clear-block"></div> -->
 		</div>
 	</div>
 </body>
