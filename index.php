@@ -7,6 +7,7 @@
 		color: #111;
 		font-family: verdana, sans-serif;
 		padding: 0;
+		margin: 0;
 	}
 
 	.header a {
@@ -122,7 +123,9 @@
 						foreach ($files as $key => $value) {
 							if ($value[0] != '.' && is_dir($value)) {
 								echo '<tr>';
-								echo '<td style="font-size:17px; padding:8px 30px 8px 10px;"><a href="/' . $value . '">' . $value . '</a></td>';
+								echo '<td style="font-size:17px; padding:8px 30px 8px 10px;"><i class="far fa-folder"></i>
+
+<a href="/' . $value . '">' . $value . '</a></td>';
 								// echo "<td style='padding:0 20px'><a href='/" . $value . "'>" . $value . "</a></td>";
 								$updated = date("Y-m-d H:i:s", filemtime($value));
 								echo '<td style="padding:8px 30px 8px 10px">' . $updated . '</td>';
